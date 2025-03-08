@@ -3,6 +3,7 @@
 ---
 
 ## Mockup H2 Database Environment Variables
+```
 spring.h2.console.path=/h2-console
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driver-class-name=org.h2.Driver
@@ -13,6 +14,7 @@ spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.jpa.hibernate.ddl-auto=update
 spring.sql.init.mode=always
+```
 
 # Patient Service
 
