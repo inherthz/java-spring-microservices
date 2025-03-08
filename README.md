@@ -1,13 +1,18 @@
-###### Copyright © 2025 Code Jackal | Original Course Material by Chris Blakely
+# Patient Service
 
 ---
-# Join the Discord Community
 
-This source code is for the Java/Spring microservices course available on my 
-YouTube channel. You can join the discord for help and discussion here:
+## Mockup H2 Database Environment Variables
+spring.h2.console.path=/h2-console
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
 
-https://discord.gg/nCrDnfCE
+spring.datasource.username=admin_viewer
+spring.datasource.password=password
 
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.sql.init.mode=always
 
 # Patient Service
 
